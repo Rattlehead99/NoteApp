@@ -17,7 +17,8 @@
 
     <Grid DataContext="{StaticResource LoginVm}">
         <StackPanel Visibility="{Binding LoginVisibility}"
-                    Margin="10">
+                    Margin="10"
+                    VerticalAlignment="Center">
             <TextBlock Text="Username: "/>
             <TextBox Text="{Binding Username, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
 
